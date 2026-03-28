@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific - Temporary files
+app/temp/
+app/captured_image.jpg
+app/face_detected.jpg
+captured_image.jpg
+face_detected.jpg
+
+# Models and Data (Large files)
+# Un-comment the next lines if you want to keep models out of git
+# *.keras
+# *.h5
+# data/
+# training_*/
+
+# OS
+.DS_Store
+Thumbs.db
